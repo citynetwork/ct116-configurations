@@ -1,0 +1,6 @@
+**/.terraform*
+**/*.tfstate
+**/*.tfstate.backup
+
+**/vgpu_keypair*
+**/typical_keypair*
