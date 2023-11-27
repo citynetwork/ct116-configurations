@@ -1,0 +1,11 @@
+export TF_VAR_instance_name="vgpu_server"
+export TF_VAR_instance_flavor="g.8c32gb50"
+export TF_VAR_image_name="Ubuntu 22.04 NVGRID x86_64"
+export TF_VAR_boot_vol_capacity=32
+export TF_VAR_boot_vol_name="vgpu_vol"
+export TF_VAR_network_name="vgpu_net"
+export TF_VAR_subnet_name="vgpu_subnet"
+export TF_VAR_router_name="vgpu_router"
+export TF_VAR_external_network="ext-net"
+export TF_VAR_secgroup_name="vgpu_sg"
+export TF_VAR_keypair_name="vgpu_keypair"

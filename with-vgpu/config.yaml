@@ -1,0 +1,9 @@
+#cloud-config
+
+ssh_deletekeys: false
+
+package_update: true
+package_upgrade: true
+
+packages:
+  - python3-pip
