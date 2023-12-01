@@ -8,4 +8,7 @@ package_upgrade: true
 packages:
   - ffmpeg
   - python3-pip
-  - python3-venv
+runcmd:
+  - [pip3, install, openai-whisper]
+
+package_reboot_if_required: true

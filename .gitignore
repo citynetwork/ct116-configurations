@@ -3,4 +3,4 @@
 **/*.tfstate.backup
 
 **/vgpu_keypair*
-**/typical_keypair*
+**/standard_keypair*

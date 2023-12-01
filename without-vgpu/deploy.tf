@@ -1,6 +1,6 @@
 resource "openstack_compute_keypair_v2" "keypair" {
   name = var.keypair_name
-  public_key = "${file("./typical_keypair.pub")}"
+  public_key = "${file("./standard_keypair.pub")}"
 }
 
 resource "openstack_networking_network_v2" "network" {
